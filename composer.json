@@ -1,0 +1,21 @@
+{
+    "name": "lihualong/test",
+    "description": "test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "王伟",
+            "email": "929016287@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php":">=7.0.0"
+	},
+	"autoload":{
+		"psr-4":{
+		  "test\\":"src/"
+		}
+	}
+}
